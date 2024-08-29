@@ -2,8 +2,8 @@ document.write("Grade Calculator");
 
 let grade = prompt("Enter your score:");
 
-if (grade > 100) {
-    console.log("Grade can't be higher than 100!");
+if (grade > 100 || grade < 0) {
+    console.log("Grade can't be higher than 100 or lower than 0!");
 }else if (grade >= 90) {
     console.log("Your grade is"+" "+ "A");
 }else if (grade >= 80) {

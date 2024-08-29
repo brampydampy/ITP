@@ -1,7 +1,7 @@
 document.write("Print Numbers in a Range");
 
-let start = prompt("Enter starting value:");
-let end = prompt("Enter ending value:");
+let start = Number(prompt("Enter starting value:"));
+let end = Number(prompt("Enter ending value:"));
 
 let count = start;
 while (count <= end) {
